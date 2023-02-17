@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Repaso Javascript</h1>
+    <script>
+       var miVariable = "FreecodeCamp"
+       console.log(miVariable);
+
+       miNombre = "Alejandra";
+       console.log(miNombre);
+
+
+       var a = 5;
+       var b = a;
+
+       console.log(a);
+       console.log(b);
+
+       //Inicializar Variables 
+
+       var x = 9;
+       var miIdioma = "Español";
+       console.log(miIdioma);
+
+       //Variables No inicializadas
+
+       var a;
+       var b;
+
+       console.log(a);
+       a = 56;
+       console.log(a);
+
+
+       //SUMA
+
+       //Operaciones Aritmeticas 
+
+       var suma = 7 + 12;
+       console.log(suma);
+
+       //Restas
+
+       var resta = 15 - 5; //Positivo 
+       console.log(resta);
+
+       var resta = 15 - 15;
+       console.log(resta);
+
+       //Multiplicacion 
+
+       var producto = 5 * 3;
+       console.log(producto);
+
+       producto = 9 * 0;
+       console.log(producto);
+
+       producto = -5 * 6;
+       console.log(producto);
+
+       var cociente = 20/2;
+       console.log(cociente);
+
+       //Numeros Decimales
+
+       var miNumeroDecimal = 23.4;
+
+       var peso = 78.34;
+
+       //Multiplicar Numeros Decimales 
+
+       var producto = 3.4 * 10.4;
+       console.log(producto);
+
+       //Dividir numeros decimales
+
+       var cociente = 5.0 / 2.0;
+       console.log(cociente);
+
+       var resto = 15 % 5;
+       console.log(resto);
+
+       //Incrementar el valor de una variable 
+
+       var librosComprados = 105
+       console.log(librosComprados);
+
+       // Opcion 1
+
+       librosComprados = librosComprados + 1;
+       console.log(librosComprados);
+
+       // Opcion 2
+
+       librosComprados++;
+       console.log(librosComprados);
+
+       //Reducir el valor de una variable 
+
+       var numeroDeEstudiantes = 256;
+       console.log(numeroDeEstudiantes);
+
+       numeroDeEstudiantes = numeroDeEstudiantes - 1 ;
+       console.log(numeroDeEstudiantes);
+
+       numeroDeEstudiantes --;
+       console.log(numeroDeEstudiantes);
+
+       //Asignacion de suma
+
+       var a = 23;
+       a += 5;
+       console.log(a);
+
+       var totalVentas = 13567.34;
+       console.log (totalVentas);
+
+       totalVentas += 345.67;
+       console.log (totalVentas);
+
+       //Asignacion de Resta reducir valor
+
+       var b = 23;
+
+       b = b - 3;
+       console.log(b);
+
+       var totalDeuda = 2446;
+
+       totalDeuda -= 345;
+
+       console.log(totalDeuda);
+
+       //Asignacion de Multiplcacion 
+
+       var c = 23;
+       c*= 2;
+       console.log (c);
+
+       var salario = 45000
+       console.log (salario);
+
+       salario *= 5;
+
+       console.log(salario);
+
+       //Asignacion de division 
+
+       var d = 39;
+
+       d/= 3;
+
+       console.log(d);
+
+       //Variables con cadenas de caracteres
+
+       var nombre = "Alejandra";
+       var apellido = "Gonzalez";
+
+       var miCadena = "Soy una cadena de caracteres"
+       console.log(miCadena);
+
+       var miMeta;
+       miMeta = "Aprende a programar con 'global academy'"
+
+       console.log(miMeta);
+
+       //Secuencias de escape
+
+       //COMILLA SIMPLE
+       //COMILLA DOBLE 
+       //BARRA INVERTIDA
+       //LINEA NUEVA
+       //RETORNO DE CARRO
+       //TABULACION
+       // RETROCESO
+       //SALTO DE PAGINA
+
+       console.log("Estoy aprendiendo Javascript");
+
+       //acceder a cualquier caracter de la cadena
+        
+       var miCadena = "Javascript";
+
+       //Cadena: J a v a s c r i p t 
+
+       //Indices:0 1 2 3 4 5 6 7 8 9 
+
+       console.log(miCadena[0]);
+       console.log(miCadena[1]);
+       console.log(miCadena[2]);
+       console.log(miCadena[3]);
+       console.log(miCadena[4]);
+       console.log(miCadena[5]);
+       console.log(miCadena[6]);
+       console.log(miCadena[7]);
+       console.log(miCadena[8]);
+       console.log(miCadena[9]);
+
+       //NOTACION DE CORCHETES ULTIMO CARACTER  
+
+       var miCadena;
+
+       /*
+       El ultimo indice siempre es longitud -1 por que comenzamos a contar desde 0
+       
+
+       miCadena.length para "Javascript" es 10.
+       El ultimo indice es 9.
+
+       Cadena: J a v a s c r i p t 
+       Indices: 0 1 2 3 4 5 6 7 8 9 
+       
+       */
+
+       miCadena = "Python";
+
+       console.log(miCadena[miCadena.length - 1]);
+
+
+       //Notacion de corchetes de derecha a izquierda
+
+       /*El penultimo indicenes la longitud -2 por que comenzamos a contar desde 0
+
+       miCadena.length es 10 . El penultimo indice es 8 
+
+        Cadena: J a v a s c r i p t 
+       Indices: 0 1 2 3 4 5 6 7 8 9 
+
+       */
+
+       var miCadena;
+
+       miCadena = "Javascript";
+
+       console.log(miCadena[miCadena.length -4]);
+
+       
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
